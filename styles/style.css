@@ -29,6 +29,7 @@ header nav ul{
   list-style: none;
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 a{
@@ -39,12 +40,13 @@ a{
 
 .inicio{
   background: linear-gradient(rgba(0,0,0,0.175), rgba(0,0,0,0.384)), url('/assets/images/headerBg.png');
-  height: 90vh;
+  height: auto;
+  padding: 90px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 30px;
-  align-items: center;
+
 }
 
 .info_inicio{
@@ -308,7 +310,6 @@ a{
   gap: 30px;
   width: 100%;
   flex-wrap: wrap;
-
 }
 
 .option{
@@ -590,9 +591,8 @@ footer img {
   }
 }
 
-
 @media (max-width: 768px){
-
+  
   header{
     gap: 30px;
   }
@@ -655,17 +655,44 @@ footer img {
     margin-top: 0;
   }
 
-  .section_img{
-    height: 25vh;
-  }
-
  .section_img .info_inicio {
         width: 95%;
-        max-width: 95%;
     }
 
   img {
-      max-width: 100%;
       height: auto;
   } 
+}
+
+@media (max-width: 480px) {
+  nav ul{
+    justify-content: space-evenly;
+  }
+
+  nav ul li{
+    width: 25%;
+  }
+
+  .inicio{
+    padding: 40px;
+    gap: 50px;
+  }
+
+  .inicio form{
+    width: 100%;
+  }
+
+  .info_inicio{
+    width: 100%;
+  }
+
+  .section_img{
+    height: 100%;
+  }
+
+  .section_img .info_inicio{
+    gap: 10px;
+    padding: 10px;
+    height: 70%;
+  }
 }
