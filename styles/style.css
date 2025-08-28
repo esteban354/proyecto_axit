@@ -102,9 +102,7 @@ a{
   color: #000000;
 }
 
-.inicio form h2 span{ 
-    color: #f98b37; 
-}
+.inicio form h2 span{  color: #f98b37; }
 
 .inicio form input{
   border: none;
@@ -147,9 +145,7 @@ a{
   padding: 10px;
 }
 
-.social p{ 
-    color: gray; 
-}
+.social p{ color: gray; }
 
 .tabs {
   background-color: #f5f5f5;
@@ -172,9 +168,7 @@ a{
   border-radius: 3px;
 }
 
-#naranja { 
-    background-color: #f98b37; 
-}
+#naranja { background-color: #f98b37; }
 
 .info_tabs {
   display: flex;
@@ -215,9 +209,7 @@ a{
   width: 40%;
 }
 
-.img_ciudad { 
-    box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.2); 
-}
+.img_ciudad { box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.2); }
 
 .contenido hr {
   width: 80px;
@@ -237,13 +229,9 @@ a{
   gap: 20px;
 }
 
-.item img { 
-    width: 40px; height: 40px; 
-}
+.item img { width: 40px; height: 40px; }
 
-#color { 
-    background-color: #f5f5f5; 
-}
+#color { background-color: #f5f5f5; }
 
 .section_items {
   display: flex;
@@ -319,21 +307,18 @@ a{
   border-radius: 8px;
 }
 
-
 .option h3{
   background-color: #333;
   color: #fff;
   padding: 20px;
   text-align: center;
   border-bottom: 1px solid #555;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-weight: 400;
   margin-bottom: 1px;  
 }
 
-#pequeñas{
-  margin-top: 7vh;
-}
+#pequeñas{ margin-top: 7vh;}
 
 .precio {
   display: flex;
@@ -488,7 +473,6 @@ a{
   border-bottom: 2px solid #ddd;
 }
 
-
 footer {
   background-color: #000000;
   color:#ffffff;
@@ -505,9 +489,7 @@ footer img {
 
 @media (max-width: 1279px){
 
-  .inicio{
-    gap: 0px;
-  }
+  .inicio{ gap: 30px; }
 
   .info_inicio{
     align-items: center;
@@ -515,17 +497,11 @@ footer img {
     width: 70%;
   }
 
-  .inicio form{
-    width: 60%;
-  }
+  .inicio form{ width: 60%; }
 
-  .social img{
-    width: 30px;
-  }
+  .social img{ width: 30px; }
 
-  .cuadro_tabs{
-    order: 1;
-  }
+  .cuadro_tabs{ order: 1; }
 
   .info_tabs{
     width: 70%;
@@ -537,57 +513,31 @@ footer img {
     order: 3;
   }
 
-  .sub_list{
-    gap: 60px;
-  }
+  .sub_list{ gap: 60px; }
 
-  .contenido{
-    width: 70%;
-  }
+  .contenido{ width: 70%; }
 
-  .img_ciudad{
-    width: 75%;
-  }
+  .img_ciudad{ width: 75%; }
 
-  .contenedor_items{
-    gap: 70px;
-  }
+  .contenedor_items{ gap: 70px; }
 
-  .contenedor_items div{
-    width: 40%;
-  }
+  .contenedor_items div{ width: 40%; }
 
-  .option.basic{
-    order: 1;
-  }
+  .option.basic{ order: 1; }
 
-  .option.premium{
-    order: 3;
-  }
+  .option.premium{ order: 3; }
 
-  .option.enterprise{
-    order: 1;
-  }
+  .option.enterprise{ order: 2; }
 
-  .persona{
-    width: 40%;
-  }
+  .persona{ width: 40%; }
 
-  .section_img{
-    height: 23vh;
-  }
+  .section_img{ height: 23vh; }
 
-  .section_img .info_inicio{
-    width: 65%;
-  }
+  .section_img .info_inicio{ width: 65%; }
 
-  .contacto form{
-    gap: 70px;
-  }
+  .contacto form{ gap: 70px; }
 
-  .contacto form div{
-    width: 100%;
-  }
+  .contacto form div{ width: 100%; }
 }
 
 @media (max-width: 920px) {
@@ -597,32 +547,25 @@ footer img {
     gap: 40px;
     padding: 40px;
   }
-
 }
 
 @media (max-width: 768px){
 
-  header{
-    gap: 30px;
-  }
+  header{ gap: 30px; }
 
   .inicio{
     padding: 40px;
     gap: 50px;
   }
 
-  .inicio form{
-    width: 70%;
-  }
+  .inicio form{ width: 70%; }
 
   .social{
     height: 200px;
     gap: 10px;
   }
 
-  .info_social{
-    width: 100%;
-  }
+  .info_social{ width: 100%; }
 
   .tabs, .sub_list, .standard, .contacto{
     width: 100%;
@@ -630,9 +573,7 @@ footer img {
     padding: 40px;
   }
 
-  .info_tabs{
-    width: 100%;
-  }
+  .info_tabs{ width: 100%; }
 
   .cuadro_tabs{
     display: flex;
@@ -640,25 +581,15 @@ footer img {
     justify-content: center;
   }
 
-  .cuadro_tabs div{
-    width: 70%;
-  }
+  .cuadro_tabs div{ width: 70%; }
 
-  .tabs img{
-    width: 100%;
-  }
+  .tabs img{ width: 100%; }
  
-  .contenido, .persona{
-    width: 100%;
-  }
+  .contenido, .persona{ width: 100%; }
 
-  .img_ciudad{
-    width: 100%;
-  }
+  .img_ciudad{ width: 100%; }
 
-  .section_items div{
-    width: 90%;
-  }
+  .section_items div{ width: 90%; }
  
   .contenedor_items div{
     width: 100%;
@@ -666,38 +597,24 @@ footer img {
     align-items: start;
   }
 
-  .option.premium{
-    order: 2;
-  }
+  .option.premium{ order: 2; }
 
-  .option.enterprise{
-    order: 3;
-  }
+  .option.enterprise{ order: 3; }
 
   .pricing_options {
     gap: 40px;
     padding: 30px 15px;
   }
   
-  .option {
-    width: 70%;
-  }
+  .option { width: 70%; }
   
-  .option h3 {
-    padding: 10px;
-  }
+  .option h3 { padding: 10px; }
   
-  .precio {
-    padding: 15px 10px;
-  }
+  .precio { padding: 15px 10px; }
   
-  .precio p span {
-    font-size: 2.5rem;
-  }
+  .precio p span { font-size: 38px; }
   
-  .tiempo {
-    font-size: 0.8rem;
-  }
+  .tiempo { font-size: 13px; }
   
   .beneficios li {
     font-size: 13px;
@@ -709,52 +626,32 @@ footer img {
     padding: 12px 15px;
   }
   
-  #pequeñas {
-    margin-top: 0;
-  }
+  #pequeñas { margin-top: 0; }
 
- .section_img .info_inicio {
-        width: 95%;
-    }
+ .section_img .info_inicio { width: 95%; }
 }
 
 @media (max-width: 480px){
-  .inicio form{
-    width: 100%;
-  }
+  .inicio form{ width: 100%; }
 
-  .contacto .info_items{
-    width: 100%;
-  }
+  .contacto .info_items{ width: 100%; }
 
-  .social{
-    padding: 15px;
-  }
+  .social{ padding: 15px; }
 
-  nav ul{
-    justify-content: space-evenly;
-  }
+  nav ul{ justify-content: space-evenly; }
 
-  nav ul li{
-    width: 25%;
-  }
+  nav ul li{ width: 25%; }
 
-  .info_inicio{
-    width: 100%;
-  }
+  .info_inicio{ width: 100%; }
 
   .contenedor_items div{
     align-items: center;
     text-align: center;
   }
 
-  .section_img{
-    height: 100%;
-  }
+  .section_img{ height: 100%; }
 
-  .cuadro_tabs div{
-    height: 90px;
-  }
+  .cuadro_tabs div{ height: 90px; }
 
   .section_img .info_inicio{
     gap: 10px;
@@ -762,10 +659,5 @@ footer img {
     height: 70%;
   }
 
-  .persona{
-    padding: 0;
-  }
-
+  .persona{ padding: 0; }
 }
-
-
