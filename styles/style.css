@@ -245,7 +245,6 @@ a{
     background-color: #f5f5f5; 
 }
 
-
 .section_items {
   display: flex;
   flex-direction: column;
@@ -591,10 +590,29 @@ footer img {
   }
 }
 
+@media (max-width: 920px) {
+
+  .inicio,.tabs, .sub_list, .standard, .section_items, .contacto{
+    width: 100%;
+    gap: 40px;
+    padding: 40px;
+  }
+
+}
+
 @media (max-width: 768px){
-  
+
   header{
     gap: 30px;
+  }
+
+  .inicio{
+    padding: 40px;
+    gap: 50px;
+  }
+
+  .inicio form{
+    width: 70%;
   }
 
   .social{
@@ -606,7 +624,7 @@ footer img {
     width: 100%;
   }
 
-  .tabs, .sub_list, .standard, .section_items, .contacto{
+  .tabs, .sub_list, .standard, .contacto{
     width: 100%;
     gap: 40px;
     padding: 40px;
@@ -619,12 +637,17 @@ footer img {
   .cuadro_tabs{
     display: flex;
     width: 100%;
+    justify-content: center;
+  }
+
+  .cuadro_tabs div{
+    width: 70%;
   }
 
   .tabs img{
     width: 100%;
   }
-  
+ 
   .contenido, .persona{
     width: 100%;
   }
@@ -633,11 +656,11 @@ footer img {
     width: 100%;
   }
 
-  .section_items{
-    align-items: start;
+  .section_items div{
+    width: 90%;
   }
-
-  .info_items, .contenedor_items div{
+ 
+  .contenedor_items div{
     width: 100%;
     text-align: left;
     align-items: start;
@@ -651,20 +674,63 @@ footer img {
     order: 3;
   }
 
-  #pequeñas{
+  .pricing_options {
+    gap: 40px;
+    padding: 30px 15px;
+  }
+  
+  .option {
+    width: 70%;
+  }
+  
+  .option h3 {
+    padding: 10px;
+  }
+  
+  .precio {
+    padding: 15px 10px;
+  }
+  
+  .precio p span {
+    font-size: 2.5rem;
+  }
+  
+  .tiempo {
+    font-size: 0.8rem;
+  }
+  
+  .beneficios li {
+    font-size: 13px;
+    padding: 12px 15px;
+  }
+  
+  .popular {
+    font-size: 0.75rem;
+    padding: 12px 15px;
+  }
+  
+  #pequeñas {
     margin-top: 0;
   }
 
  .section_img .info_inicio {
         width: 95%;
     }
-
-  img {
-      height: auto;
-  } 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px){
+  .inicio form{
+    width: 100%;
+  }
+
+  .contacto .info_items{
+    width: 100%;
+  }
+
+  .social{
+    padding: 15px;
+  }
+
   nav ul{
     justify-content: space-evenly;
   }
@@ -673,26 +739,33 @@ footer img {
     width: 25%;
   }
 
-  .inicio{
-    padding: 40px;
-    gap: 50px;
-  }
-
-  .inicio form{
-    width: 100%;
-  }
-
   .info_inicio{
     width: 100%;
+  }
+
+  .contenedor_items div{
+    align-items: center;
+    text-align: center;
   }
 
   .section_img{
     height: 100%;
   }
 
+  .cuadro_tabs div{
+    height: 90px;
+  }
+
   .section_img .info_inicio{
     gap: 10px;
-    padding: 10px;
+    padding: 15px;
     height: 70%;
   }
+
+  .persona{
+    padding: 0;
+  }
+
 }
+
+
